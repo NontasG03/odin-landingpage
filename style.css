@@ -44,7 +44,7 @@ body {
 button {
     width: 150px;
     height: 50px;
-    background-color: rgb(58, 81, 211);
+    background-color: #2883f6;
     color: #f9faf8;
     border: 1px solid black;
     border-radius: 10px;
@@ -60,7 +60,38 @@ button {
 
 ul {
     display: flex;
-    gap: 15px;
+    gap: 30px;
     list-style-type: none;
 }
 
+li {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    max-width: 250px;
+    text-align: center;
+}
+
+.section-2 {
+    color: grey;
+    font-size: 18px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.turtle {
+    width: 250px;
+    height: 200px;
+    border: 5px solid #3882f6;
+    border-radius: 15px;
+}
+
+.S2-Top {
+    color: #1f2937;
+    font-size: 36px;
+    font-weight: bolder;
+    margin: 25px 0px;
+}
