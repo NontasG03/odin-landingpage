@@ -3,11 +3,15 @@ body {
     flex-direction: column;
     margin: 0;
     font-family: sans-serif;
+    border-right: 250px solid black;
+    border-left: 250px solid black;
+
 }
 
 #header-logo {
     font-size: 24px;
-    color: #f9faf8
+    font-weight: 1000;
+    color: #f9faf8;
 }
 
 #mountain {
@@ -17,11 +21,13 @@ body {
 
 .header {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     color: #e5e7eb;
     background-color: #1f2937;
     font-size: 18px;
+    padding-left: 160px;
+    padding-right: 160px;
 }
 
 .S1-left {
@@ -80,6 +86,7 @@ li {
     align-items: center;
     justify-content: center;
     padding: 20px;
+    padding-right: 65px;
 }
 
 .turtle {
@@ -94,4 +101,5 @@ li {
     font-size: 36px;
     font-weight: bolder;
     margin: 25px 0px;
+    padding-left: 25px
 }
