@@ -130,7 +130,7 @@ li {
 .section-4 {
     display: flex;
     justify-content: space-between;
-    margin: 50px 200px;
+    margin: 100px 200px;
     padding: 40px 80px;
     background-color: #3882f6;
     border-radius: 10px;
@@ -156,4 +156,13 @@ li {
 .s4-h1 {
     font-size: 24px;
     font-weight: bolder;
+}
+
+.footer {
+    background-color: #1f2937;
+    color: #f9faf8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0px;
 }
